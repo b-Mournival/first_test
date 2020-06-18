@@ -4,11 +4,16 @@ div:after {
     display: block;
 }
 
+li {
+    font-family: "Myriad Pro";
+    margin-bottom: 10px;
+}
+
 ul {
     float: left;
     list-style: none;
     width: 15%;
-    border-right: solid 1px black;
+    border-right: solid 1px #1f2c39;
     padding-left: 0;
     padding-top: 11px;
 }
@@ -16,51 +21,54 @@ ul:first-of-type li:first-of-type{
     border-radius: 30px 0 0 30px;
 }
 ul:nth-child(2) {
-    border-right: solid 1px darkblue;
+    border-color: #03246c;
 }
 ul:nth-child(3) {
-    border-right: solid 1px darkcyan;
+    border-color: #028090;
 }
 ul:nth-child(4) {
-    border-right: solid 1px aqua;
+    border-color: #28aeaf;
 }
 
 ul li a {
     font-size: 20px;
     text-decoration: none;
-    color: black;
+    color: #1f2c39;
     padding: 10px 24px;
 }
 
 ul li:first-of-type {
-    background-color: black;
+    background-color: #1f2c39;
     text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-bottom: 25px;
 }
 ul:nth-child(2) li:first-of-type {
-    background-color: darkblue;
+    background-color: #03246c;
 }
 ul:nth-child(3) li:first-of-type {
-    background-color: darkcyan;
+    background-color: #028090;
 }
 ul:nth-child(4) li:first-of-type {
-    background-color: aqua;
+    background-color: #28aeaf;
 }
 
 ul:nth-child(2) li a {
-    color: darkblue;
+    color: #03246c;
 }
 ul:nth-child(3) li a {
     color: darkcyan;
 }
 ul:nth-child(4) li a {
-    color: aqua;
+    color: #028090;
 }
 ul li:first-of-type a {
     color: white;
 }
 
-ul li:first-of-type {
-    background-color: black;
-    text-align: center;
-}
+/*ul li:first-of-type {*/
+/*    background-color: black;*/
+/*    text-align: center;*/
+/*}*/
 
