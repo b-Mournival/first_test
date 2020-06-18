@@ -1,0 +1,66 @@
+div:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+ul {
+    float: left;
+    list-style: none;
+    width: 15%;
+    border-right: solid 1px black;
+    padding-left: 0;
+    padding-top: 11px;
+}
+ul:first-of-type li:first-of-type{
+    border-radius: 30px 0 0 30px;
+}
+ul:nth-child(2) {
+    border-right: solid 1px darkblue;
+}
+ul:nth-child(3) {
+    border-right: solid 1px darkcyan;
+}
+ul:nth-child(4) {
+    border-right: solid 1px aqua;
+}
+
+ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    padding: 10px 24px;
+}
+
+ul li:first-of-type {
+    background-color: black;
+    text-align: center;
+}
+ul:nth-child(2) li:first-of-type {
+    background-color: darkblue;
+}
+ul:nth-child(3) li:first-of-type {
+    background-color: darkcyan;
+}
+ul:nth-child(4) li:first-of-type {
+    background-color: aqua;
+}
+
+ul:nth-child(2) li a {
+    color: darkblue;
+}
+ul:nth-child(3) li a {
+    color: darkcyan;
+}
+ul:nth-child(4) li a {
+    color: aqua;
+}
+ul li:first-of-type a {
+    color: white;
+}
+
+ul li:first-of-type {
+    background-color: black;
+    text-align: center;
+}
+
